@@ -1,6 +1,7 @@
 drop database if exists negocioWeb;
 create database negocioWeb;
 use negocioweb;
+
 create table clientes(
     id int auto_increment primary key,
     nombre varchar(20) not null,
@@ -10,6 +11,7 @@ create table clientes(
     direccion varchar(50),
     comentarios varchar(250)
 );
+
 alter table clientes
     add constraint I_Clientes_Tipo_DNI
     unique(tipoDocumento,numeroDocumento);
@@ -40,7 +42,7 @@ alter table facturas
 alter table facturas
     add constraint FK_Facturas_Cliente_Id
     foreign key(idCliente)
-    references Clientes(id);
+    references clientes(id);
 
 create table detalles(
     idFactura int not null,
@@ -55,7 +57,9 @@ alter table detalles
     foreign key(idFactura)
     references facturas(id);
 
-alter table Detalles
+alter table detalles
     add constraint FK_Detalles_IdArticulo
     foreign key(idArticulo)
     references articulos(id);
+
+
