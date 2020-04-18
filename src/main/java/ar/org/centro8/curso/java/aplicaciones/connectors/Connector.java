@@ -1,4 +1,4 @@
-package ar.org.centro8.curso.java.apliaciones.connectors;
+package ar.org.centro8.curso.java.aplicaciones.connectors;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

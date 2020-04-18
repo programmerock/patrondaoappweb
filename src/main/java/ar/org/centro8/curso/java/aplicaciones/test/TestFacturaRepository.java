@@ -1,6 +1,6 @@
 package ar.org.centro8.curso.java.aplicaciones.test;
 
-import ar.org.centro8.curso.java.apliaciones.connectors.Connector;
+import ar.org.centro8.curso.java.aplicaciones.connectors.Connector;
 import ar.org.centro8.curso.java.aplicaciones.dao.interfaces.I_FacturaRepository;
 import ar.org.centro8.curso.java.aplicaciones.dao.jdbc.FacturaRepository;
 import ar.org.centro8.curso.java.aplicaciones.entities.Factura;

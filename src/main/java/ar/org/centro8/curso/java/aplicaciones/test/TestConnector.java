@@ -1,6 +1,6 @@
 package ar.org.centro8.curso.java.aplicaciones.test;
 
-import ar.org.centro8.curso.java.apliaciones.connectors.Connector;
+import ar.org.centro8.curso.java.aplicaciones.connectors.Connector;
 
 public class TestConnector {
     public static void main(String[] args) throws Exception {

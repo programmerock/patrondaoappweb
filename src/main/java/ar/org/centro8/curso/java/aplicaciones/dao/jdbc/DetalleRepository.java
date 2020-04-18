@@ -1,6 +1,6 @@
 package ar.org.centro8.curso.java.aplicaciones.dao.jdbc;
 
-import ar.org.centro8.curso.java.apliaciones.connectors.Connector;
+import ar.org.centro8.curso.java.aplicaciones.connectors.Connector;
 import ar.org.centro8.curso.java.aplicaciones.dao.interfaces.I_DetalleRepository;
 import ar.org.centro8.curso.java.aplicaciones.entities.Detalle;
 import java.sql.Connection;
